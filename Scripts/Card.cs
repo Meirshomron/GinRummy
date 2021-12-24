@@ -11,8 +11,8 @@ public class Card : MonoBehaviour
     [SerializeField] private Vector3 screenPoint;
     [SerializeField] private Vector3 offset;
 
-    [SerializeField] private Camera m_mainCamera;
-    public int Value { get => value; set => this.value = value; }
+    private Camera m_mainCamera;
+
     public bool isInHand;
 
     public void Awake()
