@@ -30,7 +30,5 @@ public class Player : NetworkBehaviour
             EventManager.TriggerEvent("PLAYER_ID", data);
         }
     }
-
-
 }
 
