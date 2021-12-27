@@ -8,8 +8,8 @@ public class Card : MonoBehaviour
     [SerializeField] private int value;
     [SerializeField] private Suit m_suit;
 
-    [SerializeField] private Vector3 screenPoint;
-    [SerializeField] private Vector3 offset;
+    private Vector3 screenPoint;
+    private Vector3 offset;
 
     private Camera m_mainCamera;
 
